@@ -1,0 +1,182 @@
+<style>
+.form-control{
+    margin-top: 100px;
+}
+.input-group{
+    width: 400px;
+    margin-left: 450px;
+}
+.btn{
+    margin-top: 100px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+/* .search{
+    margin-top: 100px;
+} */
+.body{
+
+    background-image: url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?resize=400x300&vertical=center) ;
+   /* background-size: cover;*/
+   padding-bottom: 50px; 
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.sun{
+    color: red;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+
+}
+
+.recent{
+    margin-left: 450px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+}
+.card-degree{
+    margin-left: 3px;
+    font-size: 32px;
+}
+.cloud{
+    font-size: 30px;
+}
+.RealFeel{
+    font-size: 10px;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    
+}
+.dropstart{
+    margin-top: -100px;
+    padding: -10px;
+}
+i{
+    color: black;
+}
+.card{
+    margin-left: 350px;
+}
+.menu{
+    padding: 10px;
+}
+.horizontal-line{
+    width: 250px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.settings-icon{
+   margin-left: 10px;
+   font-size: 25px;
+}
+.settings{
+    margin: 12px;
+    font-size: 30px;
+
+}
+.btn-close{
+    margin-left: 90px;
+}
+.search-icon{
+    padding-top: 100px;
+}
+.menubtn{
+ background-color: transparent;
+}
+.bi-list{
+    color: black;
+}
+.dropdown-menu{
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+
+
+
+</style>
+
+<div class="body">       <!--heading-->
+<div class="heading"><h1><span class="bi bi-brightness-alt-high-fill sun"></span>AccuWeather</h1>
+
+ <!--menu bar-->
+    
+      <div class="btn-group dropstart">
+  <button type="button" class=" btn btn-secondary menubtn" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="bi bi-list"></i>
+  </button>
+  <ul class="dropdown-menu scrollable-menu" role="menu">
+    <span class="bi bi-gear settings-icon"><span class="settings">settings</span></span>
+    <span class="closeBtn"><button type="button" class="btn-close" aria-label="Close"></button></span>
+    <li><a class="dropdown-item" href="#">Hyderabad, TELANGANA WEATHER</a></li>
+    <hr>
+
+          <li><a class="dropdown-item menu" href="#">Today</a></li>
+          <li><a class="dropdown-item menu" href="#">Hourly</a></li>
+          <li><a class="dropdown-item menu" href="#">Daily</a></li>
+          <li><a class="dropdown-item menu" href="#">Radar</a></li>
+          <li><a class="dropdown-item menu" href="#">MinuteCast</a></li>
+          <li><a class="dropdown-item menu" href="#">Monthly</a></li>
+          <li><a class="dropdown-item menu" href="#">Air Quality</a></li>
+          <li><a class="dropdown-item menu" href="#">Health & Activities</a></li>
+          <hr class="horizontal-line">
+          <li><a class="dropdown-item menu" href="#">AROUND THE GLOBE</a></li>
+          <li><a class="dropdown-item menu" href="#">Hurricane Tracker</a></li>
+          <li><a class="dropdown-item menu" href="#">Severe Weather</a></li>
+          <li><a class="dropdown-item menu" href="#">Radar & Maps</a></li>
+          <!-- <div>
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></button>
+          <div class="dropdown-container">
+            <ul>
+            <li><a class="dropdown-item" href="#">AROUND THE GLOBE</a></li>
+          <li><a class="dropdown-item" href="#">Hurricane Tracker</a></li>
+                </ul> -->
+  </ul>
+
+</div>
+
+
+</div>
+<!--input,dropdown-->
+<div class="input-group mb-3">
+ <input type="text" class="form-control "placeholder="search">
+ 
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">location</button>
+    
+    
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="#">Location</a></li>
+      <li><a class="dropdown-item" href="#">News</a></li>
+      <li><a class="dropdown-item" href="#">Videos</a></li>
+    </ul>
+
+    <!-- <div class="searchbar-result"><span class="bi bi-geo-alt"></span>use your current location</div> -->
+  </div>
+<p class="recent">RECENT LOCATIONS </p>
+  <div> <!--//cards -->
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Hyderabad</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">telangana</h6>
+          <i class="bi bi-cloud cloud"></i><span class="card-degree">29</span>
+        <p class="RealFeel">RealFeel </p>
+        </div>
+      </div>
+
+  </div>
+
+ 
+</div>
