@@ -1,0 +1,49 @@
+[
+    {
+        "city": "Andhra Pradesh",
+        "state": "Hyderabad",
+        "degree":20
+    },
+
+    {
+        "city": "Arunachal Pradesh",
+        "state": "Itanagar",
+        "degree":21
+    },
+
+    {
+        "city": "Assam",
+        "state": "Dispur",
+        "degree":22
+    },
+
+    {
+        "city": "Bihar",
+        "state": "Patna",
+        "degree":23
+    },
+
+    {
+        "city": "Chhattisgarh",
+        "state": "Raipur",
+        "degree":24
+    },
+
+    {
+        "city": "Goa",
+        "state": "Panaji",
+        "degree":25
+    },
+
+    {
+        "city": "Gujarat",
+        "state": "Gandhinagar",
+        "degree":26
+    },
+    {
+        "city": "Haryana",
+        "state": "Chandigarh",
+        "degree":27
+    }
+
+]

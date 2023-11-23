@@ -1,0 +1,128 @@
+.form-control{
+    margin-top: 100px;
+    border-left: none;
+}
+.input-group{
+    width: 400px;
+    margin-left: 450px;
+}
+.btn{
+    margin-top: 100px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.body{
+
+    /* background-image: url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?resize=400x300&vertical=center) ; */
+   /* background-size: cover;*/
+   background-image: url(https://st2.depositphotos.com/13946484/50559/i/450/depositphotos_505593540-stock-photo-danger-weather-wallpaper-dramatic-dark.jpg);
+   padding-bottom: 50px; 
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.sun{
+    color: red;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+
+}
+
+.recent{
+    margin-left: 450px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+}
+.card-degree{
+    margin-left: 3px;
+    font-size: 32px;
+}
+.cloud{
+    font-size: 30px;
+}
+.RealFeel{
+    font-size: 10px;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    
+}
+.dropstart{
+    margin-top: -100px;
+    padding: -10px;
+}
+i{
+    color: black;
+}
+.menu{
+    padding: 10px;
+}
+.horizontal-line{
+    width: 250px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.settings-icon{
+   margin-left: 10px;
+   font-size: 25px;
+}
+.settings{
+    margin: 12px;
+    font-size: 30px;
+
+}
+.btn-close{
+    margin-left: 90px;
+}
+.search-icon{
+    padding-top: 100px;
+}
+.menubtn{
+ background-color: transparent;
+}
+.bi-list{
+    color: black;
+}
+.dropdown-menu{
+    max-height: 600px;
+    overflow-y: auto;
+}
+.card{
+    opacity: 0.7;
+    width: 200px;
+}
+.search{
+    /* margin-top: 100px; */
+    background-color: white;
+    border:none ;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 100px;
+    margin-left: 450px;
+    padding-right: 14px;
+    display: none;
+}
+/* .searchbar-result{
+    margin: 40px;
+} */
+
+.container{
+    /* margin-left: 400px; */
+    /* margin-right: 400px; */
+    display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 10px;
+}
+.cards-container{
+     margin-left: 400px;
+     margin-right: 400px;
+}
